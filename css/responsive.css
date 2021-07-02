@@ -1,0 +1,328 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider-content.slider-content-space {
+        padding-top: 220px;
+    }
+    .slider-img img {
+        width: 100%;
+    }
+    .slider-btn a {
+        margin-right: 10px;
+    }
+    .shape.shape-one {
+        position: absolute;
+        top: 22%;
+        left: 1%;
+    }
+    .slider-content.slider-content-space h2 {
+        font-size: 41px;
+    }
+    .shape.shape-two {
+        bottom: 2%; 
+    }
+    .work-text h3 {
+        font-size: 30px;
+    }
+    .test-item p {
+        font-size: 26px;
+    }
+    .faqs-img img {
+        width: 100%;
+    }
+    .faqs-bottom-area h2 {
+        font-size: 25px;
+    }
+    .blog-area {
+        margin-top: -269px;
+    }
+    .blog-img img {
+        width: 100%;
+    }
+    .latest-blog-contnet {
+        top: 159px;
+        left: -5px;
+    }
+    
+    .btn-download-text span {
+        font-size: 10px;
+    }
+    .btn-download-text h4 {
+        font-size: 20px;
+    }
+    .slider-content.slider-content-space {
+        padding-top: 491px;
+    }
+    .slider-img {
+        padding-top: 376px;
+    }
+    .app-one {
+        top: 34%;
+        left: -37%;
+    }
+    .app-two {
+        right: -2%;
+        top: 63%;
+    }
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .mean-container a.meanmenu-reveal {
+        top: -7px;
+    }
+    .slider-content.slider-content-space {
+        padding-top: 200px;
+    }
+    .slider-height {
+        min-height: 700px;
+    }
+    .slider-content.slider-content-space h2 {
+        text-align: center;
+    }
+    .slider-content.slider-content-space p {
+        text-align: center;
+    }
+    .slider-btn {
+        text-align: center;
+    }
+    .single-fact::before {
+        display: none;
+    }
+    .work-text h3 {
+        font-size: 22px;
+    }
+    .work-text {
+        margin-top: 82px;
+    }
+    .pricing-area {
+        margin-bottom: 0px;
+    }
+    .testimonial-space {
+        padding-top: 100px;
+    }
+    .test-item p {
+        font-size: 20px;
+    }
+    .testimonial {
+        padding-bottom: 80px;
+    }
+    .faqs-area {
+        padding-top: 134px;
+    }
+    .faqs-img img {
+        width: 100%;
+    }
+    .blog-area {
+        margin-top: -241px;
+    }
+    .blog-img img {
+        width: 100%;
+    }
+    .latest-blog-contnet {
+        left: 19px;
+    }
+    .latest-blog {
+        margin-bottom: 165px;
+    }
+    .subcribe-tittle h2 {
+        margin-bottom: 20px;
+    }
+    .subcribe-form .btn {
+        font-size: 15px;
+        padding: 24px 32px;
+        text-transform: none;
+    }
+    .available-text h2 {
+        font-size: 57px;
+    }    
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider-content.slider-content-space h2 {
+        font-size: 47px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .slider-content.slider-content-space p {
+        font-size: 24px;
+        color: #ffffff;
+        line-height: 36px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .slider-content.slider-content-space {
+        padding-top: 179px;
+    }
+    .slider-btn a {
+        margin-right: 3px;
+    }
+    .slider-height {
+        min-height: 581px;
+    }
+    .single-fact::before {
+        display: none;
+    }
+    .video-wrapper i {
+        right: 44%;
+        padding: 20px 20px;
+    }
+    .video-wrapper h2 {
+        font-size: 20px;
+       
+    }
+    .pricing-area {
+        margin-bottom: 0px;
+    }
+    .testimonial-space {
+        padding-top: 50px;
+    }
+    .test-item p {
+        font-size: 22px;
+    }
+    .testimonial {
+        padding-bottom: 50px;
+    }
+   
+    .faqs-area{
+        padding-top: 60px;
+    }
+    .blog-img img {
+        width: 100%;
+    }
+    .latest-blog-contnet {
+        width: 362px;
+        left: 79px;
+    }
+    .subcribe-tittle h2 {
+        font-size: 33px;
+    }
+    .subcribe-form .btn {
+        font-size: 15px;
+        padding: 24px 32px;
+        text-transform: none;
+    }
+    .available-text h2 {
+        font-size: 56px;
+    }
+    .copyright-text p {
+        font-size: 13px;
+        
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+.container {width:450px}
+.slider-content.slider-content-space h2 {
+	font-size: 40px;
+    padding: 0;
+    text-align: center;
+}
+.slider-content.slider-content-space {
+	padding-top: 183px;
+}
+.slider-content.slider-content-space p {
+    font-size: 20px;
+	text-align: center;
+}
+.slider-btn a {
+	margin-right: 0px;
+}
+.slider-btn .btn {
+	padding: 23px 47px;
+}
+.slider-height {
+	min-height: 565px;
+}
+.video-wrapper h2 {
+	top: 21%;
+	right: 41%;
+	font-size: 17px;
+}
+
+.video-wrapper i {
+	top: 34%;
+	padding: 15px 15px;
+}
+.work-text {
+	margin-top: 70px;
+}
+.work-text p {
+	font-size: 16px;
+}
+.testimonial-space {
+	padding-top:20px;
+}
+.pricing-area {
+	margin-bottom: 0px;
+}
+.test-item p {
+    font-size: 18px;
+}
+.testimonial {
+    padding-bottom: 50px;
+}
+
+.faqs-area{
+    padding-top: 60px;
+}
+.faqs-bottom-area h2 {
+	font-size: 26px;
+}
+.blog-img img {
+    width: 100%;
+}
+.blog-area {
+    padding-bottom: 40px;
+}
+.latest-blog-contnet {
+	width: 318px;
+	left: 52px;
+}
+.latest-blog {
+    margin-bottom: 100px;
+}
+.subcribe-tittle h2 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.subcribe-form .btn {
+    font-size: 15px;
+    padding: 24px 32px;
+    text-transform: none;
+}
+.available-text h2 {
+	font-size: 47px;
+}
+.copyright-text p {
+	font-size: 11px;
+}
+.available-btn a {
+	
+	padding: 10px 21px;
+	margin-right: -4px;
+}
+
+}
+
+/* small Mobile :360px. */
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+    .container {width:450px}
+     
+    }
